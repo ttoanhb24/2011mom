@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng 20/10 mẹ yêu!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://www.transparenttextures.com/patterns/batthern.png');
+            background-color: #f7f1e3;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            color: #e74c3c;
+            margin-top: 50px;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .message-box {
+            background-color: #fffaf0;
+            border-radius: 20px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 40px;
+            max-width: 700px;
+            margin: 30px auto;
+            position: relative;
+        }
+        .message-box:before, .message-box:after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            background: #e74c3c;
+        }
+        .message-box:before {
+            top: -50px;
+            left: -50px;
+        }
+        .message-box:after {
+            bottom: -50px;
+            right: -50px;
+        }
+        .message {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+        .heart {
+            font-size: 60px;
+            color: #ff4757;
+            margin: 20px 0;
+        }
+        .signature {
+            font-style: italic;
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .footer {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 15px;
+            font-size: 16px;
+            margin-top: 40px;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+        }
+        .button {
+            background-color: #ff6b81;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chúc mừng 20/10 Mẹ Yêu!</h1>
+
+    <div class="message-box">
+        <div class="message">
+            <b> Mẹ yêu của con, nhân ngày Phụ Nữ Việt Nam, con muốn gửi đến mẹ những lời chúc tốt đẹp và yêu thương nhất. Cảm ơn mẹ vì đã luôn ở bên cạnh con, chăm sóc và yêu thương con vô điều kiện. Chúc mẹ luôn mạnh khỏe, hạnh phúc và mãi là người phụ nữ tuyệt vời nhất trong lòng con!</b>
+        </div>
+        <div class="heart">❤️</div>
+        <div class="signature">
+            - Yêu thương từ con
+        </div>
+        <button class="button" onclick="window.location.href='mom.html';">Gửi Yêu Thương</button>
+    </div>
+
+    <div class="footer">
+        © 2024 Lời chúc từ trái tim con
+    </div>
+
+</body>
+</html>
